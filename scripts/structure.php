@@ -1,5 +1,7 @@
 <?php
 
+include "scripts/variables.php";
+
 include "scripts/conection_open.php";
 
 include 'templates/persistent/header.php';

@@ -1,9 +1,9 @@
 <?php 
 // datos para la coneccion a mysql 
-define('DB_SERVER','localhost'); 
-define('DB_NAME','accounting'); 
-define('DB_USER','fguirao'); 
-define('DB_PASS','H1dr0g3n0'); 
+define('DB_SERVER',$server); 
+define('DB_NAME',$dbName); 
+define('DB_USER',$dbUser); 
+define('DB_PASS',$dbPass); 
 $con = mysql_connect(DB_SERVER,DB_USER,DB_PASS); 
 
 ?>
