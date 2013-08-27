@@ -18,16 +18,16 @@
 			<div class="navbar-collapse collapse bs-navbar-collapse">
 				<ul class="nav navbar-nav pull-left">
 					<li <?php if ($tabla ==='expenses') { ?>class='active'<? } ?>>
-						<a href="index.php" class="btn">Mis gastos</a>
+						<a href="gastos" class="btn">Mis gastos</a>
 					</li>
 					<li <?php if ($tabla ==='incoming') { ?>class='active'<? } ?>>
-						<a href="ingresos.php" class="btn">Mis ingresos</a>
+						<a href="ingresos" class="btn">Mis ingresos</a>
 					</li>
 					<li <?php if ($tabla ==='clients_and_suppliers') { ?>class='active'<? } ?>>
-						<a href="crm.php" class="btn">Clientes y proveedores</a>
+						<a href="crm" class="btn">Clientes y proveedores</a>
 					</li>
 					<li <?php if ($tabla ==='balance') { ?>class='active'<? } ?>>
-						<a href="balance.php" class="btn">Balance</a>
+						<a href="balance" class="btn">Balance</a>
 					</li>
 				</ul>
                 <ul class="nav navbar-nav navbar-collapse collapse bs-navbar-collapse pull-right cerrarusuario">
