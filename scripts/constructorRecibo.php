@@ -8,9 +8,9 @@ Eliminamos el key de la variable que pasamos.
 
 */
 
-$username = $dbUser;
-$password = $dbPass;
-$hostname = $server; 
+$username = $dbu;
+$password = "H1dr0g3n0";
+$hostname = "localhost"; 
 
 //connection to the database
 $con = mysql_connect($hostname, $username, $password) 
@@ -18,7 +18,7 @@ $con = mysql_connect($hostname, $username, $password)
 echo "";
 
 //select a database to work with
-$selected = mysql_select_db($dbName,$con) 
+$selected = mysql_select_db("accounting",$con) 
   or die("Could not select examples");
 
 

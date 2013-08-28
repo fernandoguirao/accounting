@@ -69,4 +69,3 @@ $modalBody += '</h5> </div> </div> <div class="secciones"> <div class="cuadro cI
 
 
 elModal += $estilos+$modalHeader+$modalBody+$modalFooter;
-

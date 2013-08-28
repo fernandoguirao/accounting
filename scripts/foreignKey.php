@@ -1,7 +1,9 @@
 <?php
 
+
 function foreignKey($refTable,$refVar,$refName,$refType,$refTypeVal) {
-$con=mysqli_connect($server,$dbUser,$dbPass,$dbName);
+define('DB_USER',$dbu); 
+$con=mysqli_connect("localhost",DB_USER,"H1dr0g3n0","accounting");
 // Check connection
 if (mysqli_connect_errno())
   {

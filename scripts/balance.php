@@ -26,7 +26,7 @@
 
 /* if ($tabla == 'balance') { */
 
-$username = "fguirao";
+$username = $dbu;
 $password = "H1dr0g3n0";
 $hostname = "localhost"; 
 
@@ -36,7 +36,7 @@ $con = mysql_connect($hostname, $username, $password)
 echo "";
 
 //select a database to work with
-$selected = mysql_select_db("accounting",$con) 
+$selected = mysql_select_db($dbn,$con) 
   or die("Could not select examples");
 
 $consulta = "SELECT `expenses`.`date`, `expenses`.`concept`, `expenses`.`amount` FROM `expenses` ORDER BY `date`";

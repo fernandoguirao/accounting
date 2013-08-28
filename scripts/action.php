@@ -1,6 +1,6 @@
 <?php
     if(isset($_POST[formCrear]))  {
-        $con=mysqli_connect("localhost","fguirao","H1dr0g3n0","accounting");
+        $con=mysqli_connect("localhost",$dbu,"H1dr0g3n0","accounting");
         // Check connection
         if (mysqli_connect_errno())
           {

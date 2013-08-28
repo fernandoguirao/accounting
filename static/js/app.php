@@ -1,6 +1,8 @@
 <?php 
     $tabla = $_GET['page'];
     $excludeDB = $_GET['select'];
+    
+    include '../../scripts/variables.php'
 ?>
 
 		/* <!-- SI ES BALANCE --> */
